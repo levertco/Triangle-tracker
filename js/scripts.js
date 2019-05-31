@@ -2,7 +2,7 @@ function triangleTracker() {
     var sideAB = parseInt(document.getElementById("sideAB").value);
     var sideAC = parseInt(document.getElementById("sideAC").value);
     var sideBC = parseInt(document.getElementById("sideBC").value);
-
+    var array= [sideAB, sideAC,sideBC];
     if (sideAB === sideAC && sideAB === sideBC) {
         alert("An Equilateral triangle");
     } else if (sideAB == sideAC && sideAB !== sideBC) {
