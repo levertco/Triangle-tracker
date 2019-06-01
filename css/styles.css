@@ -14,3 +14,7 @@ body {
   border: 1px solid #d8a0ef;
   color: white;
 }
+.button:hover {
+  color: 	#0df4c7;
+  background-color: black;
+}
