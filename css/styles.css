@@ -4,14 +4,16 @@ body {
   background: linear-gradient(to left, #0df4c7, #221aeb, #8400d6, #d8a0ef );
   font-family: Text sans-serif;
   font-size: 28px;
+  border:solid;
+  color: white;
 }
 .button {
   text-align: center;
   font-size: 15px;
   padding: 7px;
-  border-radius: 7px;
+  border-radius: 3px;
   background: #221aeb;
-  border: 1px solid #d8a0ef;
+  border:solid #d8a0ef;
   color: white;
 }
 .button:hover {
