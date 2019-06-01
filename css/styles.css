@@ -5,3 +5,12 @@ body {
   font-family: Text sans-serif;
   font-size: 28px;
 }
+.button {
+  text-align: center;
+  font-size: 15px;
+  padding: 7px;
+  border-radius: 7px;
+  background: #221aeb;
+  border: 1px solid #d8a0ef;
+  color: white;
+}
