@@ -15,7 +15,7 @@ This program enables a user to enter numbers in the provided slots. The dimensio
 If 3  numbers are identical,they get notified that they've created an Equilateral triangle. If similar numbers are entered the user will be notified that its an Isosceles triangle. If all the dimensions entered are different then its a Scalene triangle and lastly, if two dimensions of the triangle entered is less than or equal to the length of the third side he or she will be informed that they have not created a triangle.
 
 
-LINK:
+## LINK:
 Visit the website at https://levertco.github.io/triangle-Tracker/
 
 ## Technologies used
