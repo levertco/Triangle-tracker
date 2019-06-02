@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <link rel="icon" href="images/triangleicon.jpg">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/levertslogo.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
 </head>
 
-    <link rel="stylesheet" href="css/styles.css">
+<body>
+  </div>
+  <div id="footer">
+    <p><i class="fas fa-star" aria-hidden="true"></i></p>
 
-    <p>Dimensions of side AB: <input type="number" id="sideAB"> </p>
-    <p>Dimensions of side AC: <input type="number" id="sideAC"> </p>
-    <p>Dimensions of side BC: <input type="number" id="sideBC"> </p>
-    <input type="button" value="Answer" onclick="triangleTracker()">
+  </div>
+  <h1>Triangle Tracker</h1>
+  <div class="form">
+    <h2>Triangle tracking assistasnt</h2>
+    <div class="input-field">
+      <input class="number" type="number" id="num1">
+    </div>
+    <div class="input-field">
+      <input class="number" type="number" id="num2">
+    </div>
+    <div class="input-field">
+      <input class="number" type="number" id="num3">
+    </div>
+    <input class="button" type="button" value="CLEAR" onclick="reset()">
+    <input class="button" type="button" value="What Am i ?" onclick="triangle()">
 
-    <script src="js/scripts.js"></script>
-    </body>
+    <p id="display"></p>
+
+  </div>
+</body>
+<script src="js/scripts.js"></script>
 
 </html>
