@@ -19,7 +19,7 @@ LINK:
 Visit the website at https://levertco.github.io/triangle-Tracker/
 
 ## Technologies used
-HTML and CSS
+HTML,js and css
 ## suport and contact details
 If you find a bug kindly open an issue here by including your query.
 
