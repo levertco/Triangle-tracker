@@ -16,7 +16,7 @@ If 3  numbers are identical,they get notified that they've created an Equilatera
 
 
 LINK:
-Visit the website at https://levertco.github.io/triangle-Tracker/
+Visit the website at https://levertco.github.io/Triangle-tracker/
 
 ## Technologies used
 HTML,js and css
