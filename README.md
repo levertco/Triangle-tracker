@@ -9,6 +9,16 @@ This program allows users to enter dimensions of triangles and then it tells you
 ## SETUP INSTRUCTIONS:
 Enter the parameters of the triangle in the empty slots provided then click on the Answer button below and it will tell you the type of  triangle you have created.
 
+### Program Behaviour
+| Behaviour                         |  Input Example |  Output  Example                 |
+|----------                                          |:-------------: |------:                           |
+| User doesn't type anything                   | ,,          | Please FILL all the fields  |
+| User fills two fields                    | 1,1         | Please FILL all the fields |
+| User enters three sides not equal             | 1,2,3          | This is a SCALENE triangle       |
+| User enters two equal sides                     | 1,1,2          | This is an ISOSCELES triangle  |
+| User enters three equal sides                         | 1,1,1          | Thais an EQUILATERAL triangle    |
+| When the sum of any two sides are less than the third side         | 8,8,4          | NOT a triangle |
+| When the user doesn't enter a number| _, 1,2   | NOT a number|
 
 ## PROJECT BREAKDOWN:
 This program enables a user to enter numbers in the provided slots. The dimensions to be processed have to be 3 . After analysis the user is notified on what type of triangle has the listed dimensions.
@@ -37,3 +47,14 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+### Program Behaviour
+| Behaviour                         |  Input Example |  Output  Example                 |
+|----------                                          |:-------------: |------:                           |
+| User doesn't type anything                   | ,,          | Please FILL all the fields  |
+| User fills two fields                    | 1,1         | Please FILL all the fields |
+| User enters three sides not equal             | 1,2,3          | This is a SCALENE triangle       |
+| User enters two equal sides                     | 1,1,2          | This is an ISOSCELES triangle  |
+| User enters three equal sides                         | 1,1,1          | Thais an EQUILATERAL triangle    |
+| When the sum of any two sides are less than the third side         | 8,8,4          | NOT a triangle |
+| When the user doesn't enter a number| _, 1,2   | NOT a number|
